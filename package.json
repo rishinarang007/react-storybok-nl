@@ -30,7 +30,8 @@
     "prepare": "husky install",
     "lint": "eslint --fix .",
     "prettier": "prettier --write .",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -74,6 +75,7 @@
     "@typescript-eslint/parser": "^5.10.0",
     "axe-playwright": "^1.1.11",
     "babel-loader": "8.1.0",
+    "chromatic": "^6.7.1",
     "eslint-config-airbnb-typescript": "^16.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
